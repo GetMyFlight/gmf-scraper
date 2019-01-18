@@ -15,6 +15,7 @@
     "npm": ">=6.4.1"
   },
   "dependencies": {
+    "express": "^4.16.4",
     "puppeteer": "^1.11.0"
   }
 }
