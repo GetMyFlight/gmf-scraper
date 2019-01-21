@@ -1,6 +1,7 @@
 {
   "version": 2,
   "name": "gmf-scraper",
+  "alias": "gmf-scraper",
   "builds": [
     {
       "src": "server.js",
