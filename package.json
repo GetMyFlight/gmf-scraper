@@ -11,7 +11,7 @@
     "eslint-plugin-import": "2.14.0"
   },
   "engines": {
-    "node": ">=10.15.0",
+    "node": ">=8.15.0",
     "npm": ">=6.4.1"
   },
   "dependencies": {
