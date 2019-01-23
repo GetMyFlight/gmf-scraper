@@ -4,10 +4,10 @@ const express = require('express');
 const azulHandler = require('./services/azul');
 
 const app = express();
-const port = 3001;
+const port = process.env.PORT || 3001;
 
 app.get('/', (req, res) => {
-  res.end('GetMyFlight server is up!')
+  res.end('GetMyFlight server is up!');
 });
 
 app.get('/azul', azulHandler);
