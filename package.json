@@ -20,6 +20,7 @@
     "puppeteer": "^1.11.0"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "deploy": "git push heroku master"
   }
 }
