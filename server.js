@@ -6,6 +6,10 @@ const azulHandler = require('./services/azul');
 const app = express();
 const port = 3001;
 
+app.get('/', (req, res) => {
+  res.end('Server is up!')
+});
+
 app.get('/azul', azulHandler);
 
 app.listen(port, () => console.log(`Server listening on port ${port}!`));
