@@ -7,7 +7,7 @@ const app = express();
 const port = 3001;
 
 app.get('/', (req, res) => {
-  res.end('Server is up!')
+  res.end('GetMyFlight server is up!')
 });
 
 app.get('/azul', azulHandler);

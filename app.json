@@ -1,5 +1,6 @@
 {
   "name": "gmf-scraper",
+  "description": "GetMyFlight Web Scraper",
   "repository": "git@github.com:GetMyFlight/gmf-scraper.git",
   "keywords": [
     "node",

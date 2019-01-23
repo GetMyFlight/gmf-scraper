@@ -1,6 +1,7 @@
 {
   "name": "gmf-scraper",
   "version": "1.0.0",
+  "description": "GetMyFlight Web Scraper",
   "main": "server.js",
   "repository": "git@github.com:GetMyFlight/gmf-scraper.git",
   "author": "Daniel Xavier <dxdanielxavier@gmail.com>",
