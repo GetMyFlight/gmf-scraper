@@ -6,7 +6,7 @@ const pageUrl = 'https://www.voeazul.com.br/';
 module.exports = (req, res) => {
   const scrape = async () => {
     // Open browser
-    const browser = await puppeteer.launch({ headless: false, slowMo: 110 });
+    const browser = await puppeteer.launch({ args: ['--no-sandbox'], headless: false, slowMo: 110 });
 
     // Open incognito window
     const context = await browser.createIncognitoBrowserContext();
